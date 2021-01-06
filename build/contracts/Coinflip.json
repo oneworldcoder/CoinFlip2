@@ -10934,9 +10934,104 @@
     "name": "solc",
     "version": "0.5.12+commit.7709ece9.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "3": {
+      "events": {
+        "0xb16e22ae4af6d06489a9ee63ead3be1a63aa92663a4f252a54188aa66cedbf90": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "player",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "result",
+              "type": "uint256"
+            }
+          ],
+          "name": "coinFlip",
+          "type": "event",
+          "signature": "0xb16e22ae4af6d06489a9ee63ead3be1a63aa92663a4f252a54188aa66cedbf90"
+        },
+        "0x86210bb20c4b503d8bc931a507b424cc18f04fc25b562d640b8472bfdfa2d8fc": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "player",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "coinLost",
+          "type": "event",
+          "signature": "0x86210bb20c4b503d8bc931a507b424cc18f04fc25b562d640b8472bfdfa2d8fc"
+        },
+        "0x18fefa7cb13684152e64f03bf25716a36483d2ccf358884e238ed1f46369c91d": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "player",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "coinWon",
+          "type": "event",
+          "signature": "0x18fefa7cb13684152e64f03bf25716a36483d2ccf358884e238ed1f46369c91d"
+        },
+        "0xaf281b86397efb34434a01069d8f26a316a338144dd027c86dfa564f78258dbd": {
+          "anonymous": false,
+          "inputs": [],
+          "name": "proofInvalid",
+          "type": "event",
+          "signature": "0xaf281b86397efb34434a01069d8f26a316a338144dd027c86dfa564f78258dbd"
+        },
+        "0x131265de570b6b52a15d08c2bfdbd157034f6b92df12f9b7fa1c83834b84263b": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "player",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "name": "transferWin",
+          "type": "event",
+          "signature": "0x131265de570b6b52a15d08c2bfdbd157034f6b92df12f9b7fa1c83834b84263b"
+        }
+      },
+      "links": {},
+      "address": "0x91868FB2E4f99d41aBc5E8E486e2D014d0130cCA",
+      "transactionHash": "0x21adda30aa8a3146a3543c89403a6e6521256d8ea08b08a6a8ca8122f0977238"
+    }
+  },
   "schemaVersion": "3.0.16",
-  "updatedAt": "2021-01-05T12:00:20.643Z",
+  "updatedAt": "2021-01-06T11:27:08.062Z",
   "devdoc": {
     "methods": {
       "__callback(bytes32,string)": {
